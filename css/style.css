@@ -1,13 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic);
-
+@import url(https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap);
 html, body {
 	height: 100%;
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ZCOOL XiaoWei', serif;;
 	font-size: 14px;
 	line-height: 1;
 	font-weight: 400;
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	margin: 0px 0px 10px;
 	color: #272727;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'ZCOOL XiaoWei', serif;
 	text-transform: uppercase;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 p {
 	margin-bottom: 22px;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'ZCOOL XiaoWei', serif;
 	font-size:14px;
 	line-height: 25px;
 	color: #727272;
@@ -264,7 +264,10 @@ section {
 	align-items: center;
 	justify-content: center;
 } */
-
+.info-prec .boxed{
+	border: 1px solid green ;
+}
+}
 /*-----------------------------------------------------------------*/
 /* Buttons
 /*-----------------------------------------------------------------*/
@@ -299,7 +302,7 @@ section {
 }
 
 .btn-white:hover, .btn-white:focus {
-	color: #FFF;
+	color: rgb(0, 0, 0);
 	background: #7EC13F;
 	border-color:#7EC13F;
 }
@@ -661,7 +664,7 @@ section {
 }
 
 .menu-bg {
-	background:#202020;
+	background:#38883f;
 }
 
 #main-menu ul {
